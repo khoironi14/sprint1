@@ -1,4 +1,4 @@
-Cara Instalasi Web
+##Cara Instalasi Web
 1. Buatlah sebuah database dengan nama bebas
 2. Rename .env.example menjadi .env lalu lakukan konfigurasi  dengan mengubah nama db_databse sesuai yang dibuat dan pastikan  db_username dan db_password sesuai
 3. Lakukan php artisan migrate untuk membuild table ke dalam database
