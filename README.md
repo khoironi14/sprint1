@@ -1,6 +1,6 @@
 Cara Instalasi Web
 1. Buatlah sebuah database dengan nama bebas
-2. Lakukan konfigurasi di file .env dengan mengubah nama db_databse sesuai yang dibuat dan pastikan  db_username dan db_password sesuai
+2. Rename .envexample menjadi .env lalu lakukan konfigurasi  dengan mengubah nama db_databse sesuai yang dibuat dan pastikan  db_username dan db_password sesuai
 3. Lakukan php artisan migrate untuk membuild table ke dalam database
 4. Lakukan perintah php artisan command:saveData untuk melakuakn tarik data provinsi dan kota dari API untuk disimpan ke dalam table
 5. Jalan php artisan serve untuk menjalankan projectnya
